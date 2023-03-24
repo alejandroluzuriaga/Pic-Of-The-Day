@@ -1,0 +1,166 @@
+
+/* .App{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 20px;
+} */
+
+.App{
+  padding: 0 25px;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.logo_nasa{
+  width: 80px;
+  margin-left: 10px;
+}
+
+.title h1{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.info_container{
+  background-color: rgba(88, 98, 121, 0.452);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.date_text{
+  font-size: 20px;
+}
+
+input{
+  padding: 5px;
+  background-color: #5b6f96;
+  font-family: "Roboto Mono",monospace;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image_info h2{
+  font-size: 20px;
+}
+
+.image_info p{
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.element-image img{
+  width: 100%;
+  object-fit: contain;
+  max-height: 100vh;
+}
+
+.input, .image_info, .texto{
+  padding: 5px 15px;
+}
+
+.description-text{
+  padding: 20px 0 10px 0;
+}
+
+.texto{
+  position: relative;
+}
+
+.show-button{
+  padding: 5px;
+  background-color: #5b6f96;
+  font-family: "Roboto Mono",monospace;
+  color: #f0e5e8;
+  font-size: 11px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.show-button:hover{
+  background-color:#3c568a;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  .logo_nasa{
+    width: 100px;
+  }
+
+  .title h1{
+    font-size: 40px;
+  }
+
+  .date_text{
+    font-size: 25px;
+  }
+
+  input{
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  .image_info h2{
+    font-size: 25px;
+  }
+  
+  .image_info p{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  .App{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logo_nasa{
+    width: 150px;
+  }
+
+  .title h1{
+    font-size: 48px;
+  }
+
+  .date_text{
+    font-size: 25px;
+  }
+
+  input{
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .image_info h2{
+    font-size: 35px;
+  }
+  
+  .image_info p, .description-text{
+    font-size: 20px;
+  }
+}
