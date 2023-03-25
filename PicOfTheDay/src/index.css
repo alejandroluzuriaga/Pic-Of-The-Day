@@ -2,6 +2,7 @@
   font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  background: linear-gradient(to bottom right, #021334, #19448d);
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -28,7 +29,6 @@ body {
   margin: 0 auto;
   background-attachment: fixed;
   height: 100%;
-  background: linear-gradient(to bottom right, #021334, #19448d);
 }
 
 #root {

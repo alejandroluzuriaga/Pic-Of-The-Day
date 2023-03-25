@@ -45,6 +45,27 @@
   font-size: 20px;
 }
 
+.select_container{
+  padding-top: 15px;
+}
+
+select{
+  padding: 5px;
+  background-color: #5b6f96;
+  font-family: "Roboto Mono",monospace;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: lighter;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select:hover{
+  font-weight:bold;
+}
+
 input{
   padding: 5px;
   background-color: #5b6f96;
@@ -68,7 +89,7 @@ input{
 
 .element-image img{
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   max-height: 100vh;
 }
 
@@ -103,6 +124,17 @@ input{
   font-weight: bold;
 }
 
+.loading {
+  position: fixed;  /* Se posiciona fijo en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100vw;  /* Ancho de la pantalla */
+  height: 100vh;  /* Alto de la pantalla */
+  display: flex;  /* Establece el contenedor como un flexbox */
+  align-items: center;  /* Centra verticalmente los elementos del contenedor */
+  justify-content: center;  /* Centra horizontalmente los elementos del contenedor */
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   
   .logo_nasa{
@@ -132,12 +164,6 @@ input{
 }
 
 @media screen and (min-width: 1025px) {
-
-  .App{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
 
   .logo_nasa{
     width: 150px;
