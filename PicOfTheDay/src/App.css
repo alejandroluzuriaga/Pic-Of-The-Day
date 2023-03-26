@@ -1,12 +1,4 @@
 
-/* .App{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  border-radius: 20px;
-} */
-
 .App{
   padding: 0 25px;
   height: 100%;
@@ -125,14 +117,14 @@ input{
 }
 
 .loading {
-  position: fixed;  /* Se posiciona fijo en la pantalla */
+  position: fixed;  
   top: 0;
   left: 0;
-  width: 100vw;  /* Ancho de la pantalla */
-  height: 100vh;  /* Alto de la pantalla */
-  display: flex;  /* Establece el contenedor como un flexbox */
-  align-items: center;  /* Centra verticalmente los elementos del contenedor */
-  justify-content: center;  /* Centra horizontalmente los elementos del contenedor */
+  width: 100vw;  
+  height: 100vh;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
